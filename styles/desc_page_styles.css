@@ -1,0 +1,64 @@
+.desc-page-main {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    background-color: #565252;
+    color: #fff;
+}
+.desc-page-main h1 {
+    text-align: center;
+    width: 70vw;
+    margin: 4vh auto auto;
+    font-size: 3vh;
+    border-bottom: #fff solid 0.2vh;
+}
+.intro-images {
+    margin: auto;
+    margin-top: 3vh;
+}
+.intro-images img {
+    margin: auto;
+    border: white 1vh solid;
+    padding: 0.5vh;
+}
+.intro-paras p {
+    margin: auto;
+    padding: 5vw;
+}
+.gallery {
+    display: inline-grid;
+    margin: auto;
+    width: 80vw;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 40vh 40vh;
+}
+.gallery-image-box {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+
+    border: #fff solid 0.2vw;
+}
+.gallery-image-box img {
+    margin: auto;
+}
+
+.gallery-image-caption {
+    width: 100%;
+    text-align: center;
+    padding: 1vw;
+}
+
+
+.pet-likes {
+    margin: auto;
+    text-align: center;
+}
+.creator {
+    margin: auto;
+    font-weight: bold;
+    font-size: 2vh;
+    margin-bottom: 10vh;
+}
