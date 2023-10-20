@@ -1,0 +1,51 @@
+*{
+    font-family: Montserrat, sans-serif;
+}
+
+.center-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #00274c;
+    height: 50px;
+    color: white;
+}
+
+h1 {
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.center-wrapper-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin: 20px;
+}
+
+.center-wrapper-2 div {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.click-below {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: black solid 1px;
+}
+
+ul {
+    height: 400px;
+    width: 100%;
+}
+
+li {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
