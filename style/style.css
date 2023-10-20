@@ -1,0 +1,87 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skip{
+    position: absolute;
+    top: -24px;
+    left: 4px;
+    border: solid black 2px;
+
+}
+.header {
+    background-color: #00274c;
+    height: 7vh;
+    text-align: center; /* Add this line to center-align the text within the header */
+    display: flex;
+}
+
+.header h1 {
+    margin: auto;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    border-bottom: #00274c solid 3px;
+}
+
+nav div {
+    display: inline-block;
+    height: inherit;
+    width: 104px;
+    margin: 10px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.message {
+    margin: 10px;
+    text-align: center;
+}
+
+.content-container {
+
+}
+
+.content-container h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: #00274c solid 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.intro-images {
+
+}
+
+.intro-images img {
+    margin: 0 0.5px 0 0.5px;
+    display: inline;
+    width: 49%;
+    height: 200px;
+}
+
+.intro-paras {
+
+}
+
+.gallery-image-box img {
+    width: 100%;
+}
+
+.gallery-image-box p {
+    display: block;
+    width: 90%;
+    margin: 20px 10px 20px 10px;
+}
+
