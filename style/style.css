@@ -6,9 +6,17 @@
     position: absolute;
     top: -24px;
     left: 4px;
-    border: solid black 2px;
+    border: solid #ffffff 2px;
+    color: #ffffff;
 
 }
+.skip:focus{
+    top: 16px;
+    border: solid #ffffff 2px;
+    color: #ffffff;
+    padding: 6px;
+}
+
 .header {
     background-color: #00274c;
     height: 7vh;
@@ -37,9 +45,12 @@ nav div {
     height: inherit;
     width: 104px;
     margin: 10px;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
 
+}
+nav a:focus, nav a:hover {
+    text-decoration: underline;
 }
 
 .message {
