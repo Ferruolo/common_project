@@ -193,3 +193,85 @@ h3 {
         animation: none;
     }
 }
+
+@media screen and (min-width: 767px) {
+    .content-container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .content-container h2 {
+        grid-column: 1 / span 4;
+        margin-bottom: 50px;
+    }
+    .intro-images-pets {
+        grid-column: 1 / span 2;
+
+    }
+    .intro-paras-pets {
+        grid-column: 3 / span 2;
+        border-left: #000 solid 4px;
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-paras-pets p {
+        margin: auto;
+        width: 80%;
+    }
+
+    .gallery-divider {
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        grid-column: 2 /span 2;
+        text-align: center;
+        border-bottom: #000 solid 2px;
+    }
+
+
+    .pets-gallery {
+        grid-column: 2 / span 2;
+        margin-bottom: 50px;
+        display: flex;
+    }
+    .pets-gallery .gallery-image-box {
+        margin: auto;
+    }
+    .pets-gallery .gallery-image-caption {
+        width: 100%;
+        text-align: center;
+    }
+    .slideshow-caption {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slideshow-caption p {
+        margin: auto;
+        width: auto;
+        text-align: center;
+    }
+
+
+
+    .content-container h3 {
+        grid-column: 2 / span 2;
+    }
+    .pet-likes {
+        grid-column: 2 / span 2;
+        justify-content: center;
+    }
+    .pet-likes {
+        margin: auto;
+    }
+
+    .creator {
+        margin-top: 50px;
+        grid-column: 2 / span 2;
+    }
+
+
+
+
+
+}
