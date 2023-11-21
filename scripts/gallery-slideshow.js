@@ -45,7 +45,7 @@ class GallerySlideshow {
 
 
 const renderer = () => {
-    if (window.innerWidth > 767) {
+    if (window.innerWidth < 767) {
 
         const slideshow = new GallerySlideshow();
         slideshow.renderImages();
@@ -79,6 +79,8 @@ const renderer = () => {
                 boxes[j].replaceChild(newCaption, caption);
             }
         }
+    } else {
+        console.log("No Slideshow needed")
     }
 }
 
