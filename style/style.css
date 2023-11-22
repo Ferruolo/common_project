@@ -210,6 +210,12 @@ h3 {
         opacity: 1;
     }
 }
+img:hover {
+    padding: 5%;
+    border: black solid 2px;
+}
+
+
 
 .fade-in-element {
     animation: fadeIn 1s; /* 1s is the animation duration */
@@ -220,6 +226,8 @@ h3 {
         animation: none;
     }
 }
+
+
 
 @media screen and (min-width: 767px) {
     .content-container {

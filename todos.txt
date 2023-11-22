@@ -1,2 +1,2 @@
-1. Fill Out Form
-2. Think of another cool js feature to add
+1. Images change in hover state
+2.
