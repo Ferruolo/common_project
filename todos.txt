@@ -1,3 +1,2 @@
-1. Make CSS look better
-2. Fill Out Form
-3. Think of another cool js feature to add
+1. Fill Out Form
+2. Think of another cool js feature to add

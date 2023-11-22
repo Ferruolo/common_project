@@ -8,7 +8,6 @@
     left: 4px;
     border: solid #ffffff 2px;
     color: #ffffff;
-
 }
 
 .skip:focus {
@@ -110,7 +109,6 @@ nav a:focus, nav a:hover {
 .intro-images-pets .intro-images-core {
     margin: auto;
     padding: 4px;
-
     /*border: #000 solid 3px*/
 }
 
@@ -262,12 +260,13 @@ h3 {
 
 
     .pets-gallery {
-        grid-column: 2 / span 2;
+        grid-column: 1 / span 4;
         margin-bottom: 50px;
         justify-content: center;
+        align-self: center;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-gap: 5%;
+        grid-gap: 5% 5%;
     }
 
     .pets-gallery .gallery-image-box {
@@ -337,12 +336,19 @@ h3 {
         grid-column: 2 /span 2;
         display: grid;
         grid-template-columns: 45% 45%;
-        grid-gap: 0 10%;
+        grid-gap: 5% 10%;
     }
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
+    .content-container {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+
     .travel-gallery {
         grid-column: 1 /span 4;
         display: grid;
@@ -358,18 +364,21 @@ h3 {
     }
     .pets-gallery {
         grid-column: 1 / span 4;
-        margin-bottom: 50px;
-
         display: grid;
         justify-content: center;
-        grid-template-columns: 35% 35%;
+        grid-template-columns: 45% 45%;
         grid-gap: 5% 10%;
+        margin: 0 0 50px;
     }
 
-    .pets-gallery .gallery-image-box {
-        margin: auto;
-        width: 300px;
+
+    .pets-gallery .gallery-image-box p, img {
+        margin: 0 0 0 0;
+        max-height: 250px;
     }
+
+
+
     .intro-paras-pets {
         grid-column: 3 / span 2;
         border-left: #000 solid 4px;

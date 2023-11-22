@@ -80,7 +80,7 @@ const renderer = () => {
             }
         }
     } else {
-        console.log("No Slideshow needed")
+        console.log("No Slideshow       1needed")
     }
 }
 
