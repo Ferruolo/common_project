@@ -139,10 +139,12 @@ nav a:focus, nav a:hover {
     margin: auto 0 0 0;
     max-height: 250px;
 }
+
 .pets-gallery .gallery-image-caption {
     width: 100%;
     text-align: center;
 }
+
 .slideshow-caption {
     width: 100%;
     display: flex;
@@ -154,6 +156,7 @@ nav a:focus, nav a:hover {
     width: auto;
     text-align: center;
 }
+
 h3 {
     width: 100%;
     text-align: center;
@@ -210,11 +213,11 @@ h3 {
         opacity: 1;
     }
 }
+
 img:hover {
     padding: 5%;
     border: black solid 2px;
 }
-
 
 
 .fade-in-element {
@@ -226,7 +229,6 @@ img:hover {
         animation: none;
     }
 }
-
 
 
 @media screen and (min-width: 767px) {
@@ -286,8 +288,6 @@ img:hover {
         width: 100%;
         text-align: center;
     }
-
-
 
 
     .content-container h3 {
@@ -370,6 +370,7 @@ img:hover {
         padding: 2%;
         font-size: 20px;
     }
+
     .pets-gallery {
         grid-column: 1 / span 4;
         display: grid;
@@ -384,7 +385,6 @@ img:hover {
         margin: 0 0 0 0;
         max-height: 250px;
     }
-
 
 
     .intro-paras-pets {
